@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="rbhat.saiyajinlog.NewWorkoutActivity">
+
+
+    <TextView
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:id="@+id/add_workout_name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="@string/add_new_name"
+        android:textSize="@dimen/activity_label_textsize" />
+    <Spinner
+        android:id="@+id/add_workout_spinner"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:textSize="@dimen/activity_label_textsize"
+        android:layout_toRightOf="@id/add_workout_name_text"
+        android:layout_marginTop="@dimen/activity_vertical_margin"></Spinner>
+
+
+    <LinearLayout android:layout_marginTop="@dimen/add_new_setrep_marginTop"
+        android:orientation="vertical"
+        android:id="@+id/add_workout_sets_reps_list" android:layout_below="@+id/add_workout_name_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></LinearLayout>
+
+    <LinearLayout android:layout_marginTop="@dimen/add_new_setrep_marginTop"
+        android:layout_below="@id/add_workout_sets_reps_list"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/add_new_set_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="@string/add_new_set"
+            android:textSize="@dimen/activity_label_textsize" android:onClick="onAddNewButtonClicked" />
+        <Button
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_width="wrap_content" android:text="@string/add_next_exercise"
+            android:layout_height="wrap_content" android:textSize="@dimen/activity_label_textsize"
+            android:onClick="onAddNextButtonClicked"  />
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

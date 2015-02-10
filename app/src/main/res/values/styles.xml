@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Dialog">
+        <item name="android:textViewStyle">@style/WorkoutTextViewStyle</item>
+    </style>
+
+    <style name="WorkoutTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/activity_label_textsize</item>
+    </style>
+
+    <style name="WorkoutHeaderStyle" parent="WorkoutTextViewStyle">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

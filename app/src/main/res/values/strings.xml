@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SaiyajinLog</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_new_workout">New Workout</string>
+    <string name="add_new_name">Name: </string>
+    <string name="add_new_reps_text">Reps</string>
+    <string name="add_new_workout">Add New</string>
+    <string name="add_next_exercise">Done</string>
+    <string name="add_new_set">Add Set</string>
+    <string name="add_new_done">DONE</string>
+    <string name="finish_workout_list_button">Finish</string>
+    <string name="title_activity_show">ShowActivity</string>
+    <string name="select_text">Select: </string>
+    <string name="header_date">DATE</string>
+    <string name="header_weight">MAX</string>
+    <string name="header_reps">REPS</string>
+    <string name="show_activity_title">Max Weights/Exercises</string>
+    <string name="title_activity_browse">Browse</string>
+    <string name="select_date">Select Date: </string>
+
+</resources>

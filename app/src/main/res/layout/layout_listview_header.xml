@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/show_header_marginTop">
+
+    <TextView
+        android:text="@string/header_date"
+        android:layout_width="0dp" android:layout_weight="1" android:gravity="left"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:text="@string/header_weight"
+        android:layout_width="0dp" android:layout_weight="1" android:gravity="center"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="@string/header_reps"
+        android:layout_width="0dp" android:layout_weight="1" android:gravity="right"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>
